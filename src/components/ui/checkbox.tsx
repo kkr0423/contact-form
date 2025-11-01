@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
-import { CheckIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -37,7 +36,6 @@ function Checkbox({
             d="M16.5 0h-15A1.5 1.5 0 0 0 0 1.5v15A1.5 1.5 0 0 0 1.5 18h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 16.5 0Zm-3.22 7.28-5.25 5.25a.748.748 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l1.72 1.72 4.72-4.72a.751.751 0 0 1 1.06 1.06Z"
           />
         </svg>
-        {/* <CheckIcon className="size-3.5" /> */}
       </CheckboxPrimitive.Indicator>
     </CheckboxPrimitive.Root>
   );
