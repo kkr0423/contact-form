@@ -1,4 +1,4 @@
-import Metadata from "next";
+import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
 
